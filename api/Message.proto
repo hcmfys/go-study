@@ -1,0 +1,30 @@
+
+syntax = "proto3"; //proto版本
+
+package api;
+
+//请求message
+message HelloReq {
+    string req = 1;
+    int32 msgId = 2;
+    string goodsName = 3;
+}
+
+//响应message
+message HelloRep {
+    string rep = 1;
+}
+
+//Hello服务
+service Hello {
+    //定义服务中的方法
+    rpc SayHello (HelloReq) returns (HelloRep) {
+    }
+}
+
+service MsgSvr {
+    //定义服务中的方法
+    rpc DoSvr (HelloReq) returns (HelloRep) {
+    }
+}
+
