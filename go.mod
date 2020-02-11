@@ -8,6 +8,7 @@ require (
 	github.com/andlabs/ui v0.0.0-20180902183112-867a9e5a498d
 	github.com/djimenez/iconv-go v0.0.0-20160305225143-8960e66bd3da
 	github.com/fsnotify/fsnotify v1.4.7
+	github.com/fullsailor/pkcs7 v0.0.0-20190404230743-d7302db945fa
 	github.com/giorgisio/goav v0.1.0
 	github.com/golang/protobuf v1.3.3
 	github.com/lxn/win v0.0.0-20191128105842-2da648fda5b4 // indirect
