@@ -136,8 +136,9 @@ func main() {
 	//pref = "https://www.2717.com/ent/meinvtupian/2017/"
 	//url = pref + "213772.html"
 
-	//pref = "https://www.2717.com/ent/meinvtupian/2016/"
-	//url = pref + "168724.html"
+	pref = "https://www.2717.com/ent/meinvtupian/2016/"
+	url = pref + "168724.html"
+
 	go getPage(url)
 
 	for {

@@ -13,6 +13,7 @@ require (
 	github.com/lxn/win v0.0.0-20191128105842-2da648fda5b4 // indirect
 	github.com/sciter-sdk/go-sciter v0.5.0
 	github.com/spf13/cast v1.3.1
+	golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2
 	golang.org/x/net v0.0.0-20200202094626-16171245cfb2
 	google.golang.org/grpc v1.27.1
 )
